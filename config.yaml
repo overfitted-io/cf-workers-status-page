@@ -20,3 +20,13 @@ monitors:
     url: 'https://overfitted.io/'
     method: GET
     expectStatus: 200
+  - id: db-api
+    name: DB API
+    url: 'https://db-api.api.overfitted.io/health-check'
+    method: GET
+    expectStatus: 200
+  - id: glyph-api
+    name: Glyph API
+    url: 'https://glyph.api.overfitted.io/health-check'
+    method: GET
+    expectStatus: 200
