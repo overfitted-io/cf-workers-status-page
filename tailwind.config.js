@@ -14,6 +14,15 @@ module.exports = {
       xl: '1280px',
       '2xl': '1536px',
     },
+    container: {
+            screens: {
+                'sm': '80%',
+                'md': '80%',
+                'lg': '80%',
+                'xl': '80%',
+                '2xl': '80%',
+            }
+        },
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
