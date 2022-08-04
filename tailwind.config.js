@@ -16,11 +16,11 @@ module.exports = {
     },
     container: {
             screens: {
-                'sm': '80%',
-                'md': '80%',
-                'lg': '80%',
-                'xl': '80%',
-                '2xl': '80%',
+                'sm': '512px',
+                'md': '614px',
+                'lg': '819px',
+                'xl': '1024px',
+                '2xl': '1228px',
             }
         },
     colors: {
