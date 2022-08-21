@@ -16,12 +16,12 @@ settings:
 
 monitors:
   - id: overfitted-io
-    name: Main Website
+    name: overfitted.io
     url: 'https://overfitted.io/'
     method: GET
     expectStatus: 200
   - id: db-api
-    name: DB API
+    name: Database API
     url: 'https://db-api.api.overfitted.io/health-check'
     method: GET
     expectStatus: 200
