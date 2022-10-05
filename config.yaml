@@ -30,8 +30,8 @@ monitors:
     url: 'https://glyph.api.overfitted.io/health-check'
     method: GET
     expectStatus: 200
-  - id: template-align-api
-    name: Template Align API
-    url: 'https://template-align.api.overfitted.io/health-check'
+  - id: template-parser-api
+    name: Template Parser API
+    url: 'https://template-parser.api.overfitted.io/health-check'
     method: GET
     expectStatus: 200
